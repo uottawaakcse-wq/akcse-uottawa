@@ -6,9 +6,9 @@ interface Executive {
   year: string;
   mbti: string;
 }
-export default async function About({ params }: { params: Promise<{ lang: Locale }> }) {
+export default async function About({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
   const { about_page } = dict;
 
   return (

@@ -13,12 +13,12 @@ interface ArchiveGroup {
   year: string;
   events: EventItem[];
 }
-export default async function EventsArchive({ params }: { params: Promise<{ lang: Locale }> }) {
+export default async function EventsArchive({ params }: { params: Promise<{ lang: String }> }) {
   // Await the params to extract the lang string
   const { lang } = await params;
   
   // Fetch the dictionary
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
   const { events_page } = dict;
 
   // We start directly with <main>. The navigation and background are handled by layout.tsx.

@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import { getDictionary, Locale } from '../dictionaries';
 
-export default async function Home({ params }: { params: Promise<{ lang: Locale }> }) {
+export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   
   // Await the params to extract the lang string
   const { lang } = await params;
   
   // Fetch the dictionary
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   // Notice how we start DIRECTLY with <main>. 
   // The <nav> and background are now handled automatically by layout.tsx!

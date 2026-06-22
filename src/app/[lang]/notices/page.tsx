@@ -37,7 +37,7 @@ const NOTICES = [
   }
 ];
 
-export default async function NoticesPage({ params }: { params: Promise<{ lang: Locale }> }) {
+export default async function NoticesPage({ params }: { params: Promise<{ lang: String }> }) {
   // Await the params to extract the lang string for the links
   const { lang } = await params;
 
