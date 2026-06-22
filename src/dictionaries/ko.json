@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "chapter": "YG uOttawa",
+    "events": "이벤트",
+    "notices": "공지",
+    "admin": "[ 관리자 ]"
+  },
+  "hero": {
+    "subtitle": "캐나다 한인 과학기술자 협회 AKCSE uOttawa",
+    "title_1": "혁신가들을",
+    "title_2": "연결합니다",
+    "desc": "지역과 분야를 초월한 네트워킹과 멘토링을 통해 학계와 산업계의 격차를 해소하여 수도권 지역의 STEM 분야 한인 학생들을 지원합니다.",
+    "join": "회원 가입",
+    "about": "YG uOttawa 소개"
+  },
+  "ledger": {
+    "important_notice": "주요 공지사항",
+    "view_all": "모든 공지 보기",
+    "events_ledger": "행사 일정",
+    "view_archive": "아카이브"
+  },
+  "events_page": {
+    "title": "행사 일정.",
+    "subtitle": "예정된 일정 및 과거 행사 기록.",
+    "upcoming_label": "예정된 행사",
+    "target_date_label": "행사 일시",
+    "archive_label": "과거 행사 기록",
+    "upcoming_events": [
+      {
+        "id": "ev-2026-09-15",
+        "date": "2026.09.15",
+        "time": "18:00 EST",
+        "title": "가을 정기 총회 및 등록",
+        "location": "오타와 대학교 CRX 빌딩",
+        "type": "총회",
+        "description": "새 학기의 시작을 함께하세요. 다가오는 기술 워크숍, 네트워킹 이벤트 및 전국 장학금 신청 절차에 대해 알아볼 수 있습니다."
+      }
+    ],
+    "archive_years": [
+      {
+        "year": "2026",
+        "events": [
+          { "date": "2026.08.02", "title": "여름 테크 피크닉", "location": "메이저스 힐 파크", "type": "네트워킹" },
+          { "date": "2026.04.10", "title": "연말 네트워킹", "location": "SITE 빌딩", "type": "네트워킹" },
+          { "date": "2026.02.22", "title": "이력서 작성 & 테크 워크숍", "location": "CBY 빌딩", "type": "워크숍" }
+        ]
+      }
+    ]
+  }, 
+  "about_page": {
+    "title": "미션 & 정체성.",
+    "subtitle": "지역에서 설립되어 전국으로 연결되다.",
+    "national_title": "전국 단위 조직",
+    "national_desc": "캐나다 한인 과학기술자 협회(AKCSE)는 STEM 분야의 한인 전문가와 학생들의 네트워크를 육성하기 위해 헌신하는 비영리 단체입니다. 경력 개발, 학문적 우수성 및 국제적 협력을 위한 가교 역할을 합니다.",
+    "chapter_title": "YG uOttawa 지부",
+    "chapter_desc": "캐나다의 수도에 위치한 우리 지부는 특히 오타와 대학교 학생들을 지원합니다. 네트워킹, 멘토링, 기술적 성장을 위한 플랫폼을 제공하여, 회원들이 학부 과정을 마치고 오타와의 활기찬 기술 및 정부 부문으로 원활하게 진출할 수 있도록 돕습니다.",
+    "board_title": "임원진",
+    "board_subtitle": "2026/2027 학년도를 이끌어갈 팀입니다.",
+    "active_members": "명의 임원",
+    "portrait_placeholder": "[ 사진 ]",
+    "labels": {
+      "major": "전공",
+      "year": "학년",
+      "mbti": "MBTI"
+    },
+    "executives": [
+      { "name": "Sophie Kim", "role": "President", "major": "Mechanical Engineering", "year": "3rd Year", "mbti": "ENTJ" },
+      { "name": "Eunsol Sally Lee", "role": "Vice President", "major": "Mathematics", "year": "2nd Year", "mbti": "INTJ" },
+      { "name": "Sunwoo Choi", "role": "Senior Advisor", "major": "Electrical Engineering", "year": "5th Year", "mbti": "ISFP" },
+      { "name": "Sam Im", "role": "VP Finance", "major": "Biomedical Mechanical Engineeirng", "year": "3rd Year", "mbti": "ISTJ" }
+    ]
+  }
+}

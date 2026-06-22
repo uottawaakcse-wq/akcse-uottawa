@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "chapter": "Our Chapter",
+    "events": "Events",
+    "notices": "Notices",
+    "admin": "[ Admin ]"
+  },
+  "hero": {
+    "subtitle": "Association of Korean Canadian Science & Engineering",
+    "title_1": "Connecting",
+    "title_2": "innovators at",
+    "desc": "We bridge the gap between academic life and the professional world for Korean-Canadian students in STEM across the National Capital Region.",
+    "join": "Become a Member",
+    "about": "Our Chapter"
+  },
+  "ledger": {
+    "important_notice": "Important Notice",
+    "view_all": "View All Notices",
+    "events_ledger": "Events Ledger",
+    "view_archive": "View Archive"
+  },
+  "events_page": {
+    "title": "Events Ledger.",
+    "subtitle": "Upcoming schedules and historical records.",
+    "upcoming_label": "Upcoming",
+    "target_date_label": "Target Date",
+    "archive_label": "Historical Archive",
+    "upcoming_events": [
+      {
+        "id": "ev-2026-09-15",
+        "date": "2026.09.15",
+        "time": "18:00 EST",
+        "title": "Fall General Meeting & Registration",
+        "location": "CRX Building, uOttawa",
+        "type": "General",
+        "description": "Kickoff for the new semester. Learn about upcoming technical workshops, networking events, and the national scholarship application process."
+      }
+    ],
+    "archive_years": [
+      {
+        "year": "2026",
+        "events": [
+          { "date": "2026.08.02", "title": "Summer Tech Picnic", "location": "Major's Hill Park", "type": "Networking" },
+          { "date": "2026.04.10", "title": "End of Year Networking", "location": "SITE Building", "type": "Networking" },
+          { "date": "2026.02.22", "title": "Resume Parsing & Tech Workshop", "location": "CBY Building", "type": "Workshop" }
+        ]
+      }
+    ]
+  } , 
+  "about_page": {
+    "title": "Mission & Identity.",
+    "subtitle": "Established locally, connected nationally.",
+    "national_title": "National Organization",
+    "national_desc": "The Association of Korean Canadian Science and Engineering (AKCSE) is a non-profit organization dedicated to fostering a network of Korean-Canadian professionals and students in STEM fields. It serves as a bridge for career development, academic excellence, and international collaboration.",
+    "chapter_title": "uOttawa Chapter",
+    "chapter_desc": "Situated in Canada's capital, our chapter specifically empowers students at the University of Ottawa. We provide a platform for networking, mentorship, and technical growth, helping our members transition seamlessly from their undergraduate studies into the vibrant tech and government sectors of Ottawa.",
+    "board_title": "Executive Board",
+    "board_subtitle": "The team behind the 2026/2027 academic year.",
+    "active_members": "Active Members",
+    "portrait_placeholder": "[ Portrait ]",
+    "labels": {
+      "major": "Major",
+      "year": "Year",
+      "mbti": "MBTI"
+    },
+    "executives": [
+      { "name": "Sophie Kim", "role": "President", "major": "Mechanical Engineering", "year": "3rd Year", "mbti": "ENTJ" },
+      { "name": "Eunsol Sally Lee", "role": "Vice President", "major": "Mathematics", "year": "2nd Year", "mbti": "INTJ" },
+      { "name": "Sunwoo Choi", "role": "Senior Advisor", "major": "Electrical Engineering", "year": "5th Year", "mbti": "ISFP" },
+      { "name": "Sam Im", "role": "VP Finance", "major": "Biomedical Mechanical Engineeirng", "year": "3rd Year", "mbti": "ISTJ" }
+    ]
+  }
+}

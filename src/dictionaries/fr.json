@@ -1,0 +1,73 @@
+{
+  "nav": {
+    "chapter": "Notre Section",
+    "events": "Événements",
+    "notices": "Avis",
+    "admin": "[ Admin ]"
+  },
+  "hero": {
+    "subtitle": "Association des Scientifiques et Ingénieurs Coréo-Canadiens",
+    "title_1": "Connecter",
+    "title_2": "les innovateurs à",
+    "desc": "Nous comblons le fossé entre la vie académique et le monde professionnel pour les étudiants coréo-canadiens en STEM dans la région de la capitale nationale.",
+    "join": "Devenir Membre",
+    "about": "Notre Section"
+  },
+  "ledger": {
+    "important_notice": "Avis Important",
+    "view_all": "Voir Tous Les Avis",
+    "events_ledger": "Registre des Événements",
+    "view_archive": "Voir L'archive"
+  },
+  "events_page": {
+    "title": "Registre des Événements.",
+    "subtitle": "Horaires à venir et archives historiques.",
+    "upcoming_label": "À Venir",
+    "target_date_label": "Date Prévue",
+    "archive_label": "Archives Historiques",
+    "upcoming_events": [
+      {
+        "id": "ev-2026-09-15",
+        "date": "2026.09.15",
+        "time": "18:00 EST",
+        "title": "Assemblée Générale d'Automne & Inscription",
+        "location": "Bâtiment CRX, uOttawa",
+        "type": "Général",
+        "description": "Lancement du nouveau semestre. Découvrez les prochains ateliers techniques, les événements de réseautage et le processus de demande de bourse nationale."
+      }
+    ],
+    "archive_years": [
+      {
+        "year": "2026",
+        "events": [
+          { "date": "2026.08.02", "title": "Pique-nique Technologique d'Été", "location": "Parc Major's Hill", "type": "Réseautage" },
+          { "date": "2026.04.10", "title": "Réseautage de Fin d'Année", "location": "Bâtiment SITE", "type": "Réseautage" },
+          { "date": "2026.02.22", "title": "Atelier de CV & Technologie", "location": "Bâtiment CBY", "type": "Atelier" }
+        ]
+      }
+    ]
+  }, 
+  "about_page": {
+    "title": "Mission & Identité.",
+    "subtitle": "Établi localement, connecté nationalement.",
+    "national_title": "Organisation Nationale",
+    "national_desc": "L'Association des Scientifiques et Ingénieurs Coréo-Canadiens (AKCSE) est une organisation à but non lucratif dédiée au développement d'un réseau de professionnels et d'étudiants coréo-canadiens dans les domaines STEM. Elle sert de pont pour le développement de carrière, l'excellence académique et la collaboration internationale.",
+    "chapter_title": "Section uOttawa",
+    "chapter_desc": "Située dans la capitale du Canada, notre section soutient spécifiquement les étudiants de l'Université d'Ottawa. Nous fournissons une plateforme de réseautage, de mentorat et de croissance technique, aidant nos membres à faire une transition harmonieuse de leurs études de premier cycle vers les secteurs technologiques et gouvernementaux dynamiques d'Ottawa.",
+    "board_title": "Bureau Exécutif",
+    "board_subtitle": "L'équipe derrière l'année académique 2026/2027.",
+    "active_members": "Membres Actifs",
+    "portrait_placeholder": "[ Portrait ]",
+    "labels": {
+      "major": "Majeure",
+      "year": "Année",
+      "mbti": "MBTI"
+    },
+    "executives": [
+      { "name": "Sophie Kim", "role": "President", "major": "Mechanical Engineering", "year": "3rd Year", "mbti": "ENTJ" },
+      { "name": "Eunsol Sally Lee", "role": "Vice President", "major": "Mathematics", "year": "2nd Year", "mbti": "INTJ" },
+      { "name": "Sunwoo Choi", "role": "Senior Advisor", "major": "Electrical Engineering", "year": "5th Year", "mbti": "ISFP" },
+      { "name": "Sam Im", "role": "VP Finance", "major": "Biomedical Mechanical Engineeirng", "year": "3rd Year", "mbti": "ISTJ" }
+    ]
+  }
+}
