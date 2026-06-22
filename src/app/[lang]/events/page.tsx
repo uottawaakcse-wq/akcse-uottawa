@@ -1,5 +1,18 @@
 import { getDictionary, Locale } from '../../dictionaries';
+interface EventItem {
+  id?: string;
+  date: string;
+  time?: string;
+  title: string;
+  location: string;
+  type: string;
+  description?: string;
+}
 
+interface ArchiveGroup {
+  year: string;
+  events: EventItem[];
+}
 export default async function EventsArchive({ params }: { params: Promise<{ lang: Locale }> }) {
   // Await the params to extract the lang string
   const { lang } = await params;
@@ -29,7 +42,7 @@ export default async function EventsArchive({ params }: { params: Promise<{ lang
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-0 border border-black/10">
-          {events_page.upcoming_events.map((event: any) => (
+        {events_page.upcoming_events.map((event: EventItem) => (
             <div key={event.id} className="lg:col-span-12 flex flex-col lg:flex-row bg-white group hover:border-black transition-colors">
               
               <div className="bg-[#8F001A] text-white p-8 lg:w-72 flex flex-col justify-center shrink-0">
@@ -62,7 +75,7 @@ export default async function EventsArchive({ params }: { params: Promise<{ lang
         </div>
 
         <div className="border-t-4 border-black">
-          {events_page.archive_years.map((archiveGroup: any, index: number) => (
+        {events_page.archive_years.map((archiveGroup: ArchiveGroup, index: number) => (
             <div key={index} className="grid grid-cols-1 lg:grid-cols-12 border-b border-black/10">
               
               <div className="lg:col-span-2 py-6 lg:py-8 lg:border-r border-black/10 pr-6">
@@ -72,7 +85,7 @@ export default async function EventsArchive({ params }: { params: Promise<{ lang
               </div>
 
               <div className="lg:col-span-10 flex flex-col">
-                {archiveGroup.events.map((event: any, i: number) => (
+              {archiveGroup.events.map((event: EventItem, i: number) => (
                   <div 
                     key={i} 
                     className={`flex flex-col sm:flex-row sm:items-center p-6 lg:p-8 hover:bg-black/5 transition-colors cursor-default ${i !== archiveGroup.events.length - 1 ? 'border-b border-black/5' : ''}`}

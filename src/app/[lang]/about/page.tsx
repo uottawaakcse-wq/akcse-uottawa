@@ -1,5 +1,11 @@
 import { getDictionary, Locale } from '../../dictionaries';
-
+interface Executive {
+  name: string;
+  role: string;
+  major: string;
+  year: string;
+  mbti: string;
+}
 export default async function About({ params }: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
@@ -47,7 +53,7 @@ export default async function About({ params }: { params: Promise<{ lang: Locale
 
         {/* Grid of Executive Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
-          {about_page.executives.map((exec: any, index: number) => (
+        {about_page.executives.map((exec: Executive, index: number) => (
             <div key={index} className="border border-black/10 bg-white group hover:border-black transition-colors flex flex-col">
               
               {/* Portrait Placeholder */}
