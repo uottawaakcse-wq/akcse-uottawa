@@ -140,7 +140,7 @@ export default function JoinForm({ dict }: { dict: any }) {
       });
 
       const pdfBytes = await pdfDoc.save();
-      const blob = new Blob([pdfBytes], { type: 'application/pdf' });
+      const blob = new Blob([new Uint8Array(pdfBytes)], { type: 'application/pdf' });
       const link = document.createElement('a');
       link.href = URL.createObjectURL(blob);
       link.download = `AKCSE_Application_${formData.englishName.replace(/\s+/g, '_')}.pdf`;
